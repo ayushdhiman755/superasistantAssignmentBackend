@@ -7,7 +7,7 @@ const Paper = require("./model/Paper");
 
 mongoose
   .connect(
-    "mongodb+srv://ayushdhiman755:1@cluster0.xsde2zl.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://ayushdhiman755:1@cluster0.xsde2zl.mongodb.net"
   )
   .then(() => {
     console.log("connected ");
