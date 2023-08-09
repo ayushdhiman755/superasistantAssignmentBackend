@@ -20,7 +20,9 @@ app.use(
   })
 );
 app.use(express.json());
-
+app.get("/", (req, res) => {
+  res.status(200).json("hello");
+});
 app.post("/addQuestion", async (req, res) => {
   console.log(req.body);
   try {
