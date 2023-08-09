@@ -12,7 +12,7 @@ mongoose
   .then(() => {
     console.log("connected ");
   })
-  .catch((err) => console.log(err));
+  .catch((err) => console.log("Mongoose Error",err));
 
 const corsOptions = {
   origin: "*",
